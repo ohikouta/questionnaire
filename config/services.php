@@ -30,5 +30,9 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    'google' => [
+        'credentials_path' => env('GOOGLE_API_CREDENTIALS_PATH'),
+        'spreadsheet_id' => env('GOOGLE_SPREADSHEET_ID'),
+    ],
 
 ];
